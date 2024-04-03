@@ -23,7 +23,7 @@ After setting up the model, follow these steps to run the application:
     ```bash
     python app.py
     ```
-4. Inject 'margonem-script.js' in the console while being in Margonem
+4. Inject `margonem-script.js` in the console while being in Margonem
 
 ![GIF Image](https://i.imgur.com/MeTmsBM.gif)
 
