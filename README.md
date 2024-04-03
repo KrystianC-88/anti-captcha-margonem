@@ -36,6 +36,9 @@ To enhance the AI model, you can train it using Roboflow.
 1. Create a project on Roboflow.
 2. Upload your captcha photos.
 3. Create two tags: "normal" and "upsidedown".
+
+**IMPORTANT:** Create the "normal" tag before the "upsidedown" tag.
+
 4. Select all instances labeled "normal" and "upsidedown".
 
 ![Roboflow Image](https://i.imgur.com/7UWjuFP.png)
@@ -44,7 +47,6 @@ To enhance the AI model, you can train it using Roboflow.
 
 ![Roboflow Image](https://i.imgur.com/rofMVcj.png)
 
-**IMPORTANT:** Create the "normal" tag before the "upsidedown" tag.
 
 6. Use `training/train.ipynb` to train the model.
 7. Update the model in `captcha.py` to match your new model.
