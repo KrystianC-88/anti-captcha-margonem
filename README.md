@@ -1,4 +1,5 @@
 # AI Anti-Captcha Margonem
+**Used dataset of 150+ captchas**
 
 ![for education purposes only](https://img.shields.io/badge/-for%20education%20purposes%20only-red)  
 
@@ -35,7 +36,9 @@ To improve the AI model, you can train it on Roboflow.
 2. Upload your captcha photos.
 3. Create two tags: "normal", "upsidedown".
 4. Select all instances labeled "normal" and "upsidedown".
-5. Save the data:
+![IMG](https://i.imgur.com/7UWjuFP.png)
+5. Save the dataset using only resize option in preprocessing:
+![IMG](https://i.imgur.com/rofMVcj.png)
 
 
 **IMPORTANT:** Create the "normal" tag first, then "upsidedown".
