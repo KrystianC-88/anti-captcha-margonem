@@ -6,6 +6,11 @@ This project is developed for educational purposes only. Usage in the game "Marg
 
 ## How to Run the Program
 
+1. Download the model from [here](https://drive.google.com/file/d/17mdh8VxHYL3gipHsBKuCE73uvl9008jF/view?usp=sharing).
+2. Place the downloaded model in the `training/models/` directory.
+
+After setting up the model, follow these steps to run the application:
+
 1. Set up a virtual environment:
     ```bash
     python -m venv venv 
@@ -20,7 +25,7 @@ This project is developed for educational purposes only. Usage in the game "Marg
     ```
 4. Inject 'margonem-script.js' in the console while being in Margonem
 
-![GIF Image](link_to_gif)
+![GIF Image](https://i.imgur.com/MeTmsBM.gif)
 
 ## How to Improve the AI
 
