@@ -1,5 +1,6 @@
 # AI Anti-Captcha Margonem
-**Used dataset of 150+ captchas**
+
+**Trained on a dataset of 150+ captchas**
 
 ![for education purposes only](https://img.shields.io/badge/-for%20education%20purposes%20only-red)  
 
@@ -24,27 +25,32 @@ After setting up the model, follow these steps to run the application:
     ```bash
     python app.py
     ```
-4. Inject `margonem-script.js` in the console while being in Margonem
+4. Inject `margonem-script.js` into the console while in Margonem.
 
 ![GIF Image](https://i.imgur.com/MeTmsBM.gif)
 
 ## How to Improve the AI
 
-To improve the AI model, you can train it on Roboflow.
+To enhance the AI model, you can train it using Roboflow.
 
 1. Create a project on Roboflow.
 2. Upload your captcha photos.
-3. Create two tags: "normal", "upsidedown".
+3. Create two tags: "normal" and "upsidedown".
 4. Select all instances labeled "normal" and "upsidedown".
-![IMG](https://i.imgur.com/7UWjuFP.png)
-5. Save the dataset using only resize option in preprocessing:
-![IMG](https://i.imgur.com/rofMVcj.png)
 
+![Roboflow Image](https://i.imgur.com/7UWjuFP.png)
 
-**IMPORTANT:** Create the "normal" tag first, then "upsidedown".
+5. Save the dataset using only the resize option in preprocessing:
+
+![Roboflow Image](https://i.imgur.com/rofMVcj.png)
+
+**IMPORTANT:** Create the "normal" tag before the "upsidedown" tag.
+
+6. Use `training/train.ipynb` to train the model.
+7. Update the model in `captcha.py` to match your new model.
 
 [Watch this video](https://youtu.be/x0ThXHbtqCQ) for more information about training.
 
-Need help? Message me on Discord: sffrhs.dev
+Need assistance? Message me on Discord: sffrhs.dev
 
 Discord ID: 515623136805388291
