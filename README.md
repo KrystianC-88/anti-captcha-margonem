@@ -43,5 +43,7 @@ To improve the AI model, you can train it on Roboflow.
 
 **IMPORTANT:** Create the "normal" tag first, then "upsidedown".
 
-[Watch this video](link_to_video) for more information about training.
+[Watch this video](https://youtu.be/x0ThXHbtqCQ) for more information about training.
 
+Need help? Message me on Discord: sffrhs.dev
+Discord ID: 515623136805388291
