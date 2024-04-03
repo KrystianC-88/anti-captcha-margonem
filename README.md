@@ -46,4 +46,5 @@ To improve the AI model, you can train it on Roboflow.
 [Watch this video](https://youtu.be/x0ThXHbtqCQ) for more information about training.
 
 Need help? Message me on Discord: sffrhs.dev
+
 Discord ID: 515623136805388291
